@@ -10,7 +10,7 @@
 
 6-Run Main.java
 
-7- If there is any issue with running code on local IDE , you can run code on this online compiler(https://www.programiz.com/java-programming/online-compiler/), just copy  paste the below code(compressed the  code into one file) and run it
+7- If there is any issue with running code on local IDE , you can run code on this online compiler(https://www.programiz.com/java-programming/online-compiler/), just copy  paste the below code(compressed the code into one file) and run it
 
 import java.util.HashMap;
 import java.util.Map;
