@@ -7,4 +7,6 @@
 
 4- Initially it will ask for 2 inputs - press 1 for PRODUCTION environment(where dice rolls are randomized and game gets automatically executed) or press 0 for TEST environment(where dice rolls values are given manual inputs )
 
-5-Run Main.java 
+5- It has option to select multiple dice- in case of more than one dice player game will start when it gets 6 in all the dices
+
+6-Run Main.java 
