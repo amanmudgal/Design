@@ -25,8 +25,8 @@ public class Snake implements BoardComponent {
     }
 
     @Override
-    public boolean isValidPosition(int position, int boardSize) {
-        return position > 1 && position < boardSize;
+    public boolean isValidPosition(int boardSize) {
+        return this.getStart()>this.getEnd() && this.getEnd() > 1 && this.getEnd() < boardSize && this.getStart() > 1 && this.getStart() < boardSize ;
     }
 }
 
