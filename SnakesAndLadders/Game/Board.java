@@ -36,7 +36,7 @@ public class Board {
         int end = component.getEnd();
         ComponentType type = component.getType();
 
-        if (!component.isValidPosition(start, this.size) || !component.isValidPosition(end,this.size)) {
+        if (!component.isValidPosition(this.size) ) {
             throw new IllegalArgumentException("Invalid component position: start and end should be valid values.");
         }
 
